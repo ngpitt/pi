@@ -1,4 +1,4 @@
 FROM scratch
 COPY pi /
-
-CMD ["/pi"]
+EXPOSE 80
+ENTRYPOINT ["/pi"]
